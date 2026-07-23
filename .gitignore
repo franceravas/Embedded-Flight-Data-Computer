@@ -1,0 +1,11 @@
+# KiCad temporary files
+*-bak
+*.lck
+fp-info-cache
+*.kicad_prl
+*.kicad_pro-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# macOS files
+.DS_Store
