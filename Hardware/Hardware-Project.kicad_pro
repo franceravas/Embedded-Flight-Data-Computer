@@ -617,6 +617,14 @@
     [
       "48d8aa16-bc82-459d-909f-8c389aea39d3",
       "STM32F446RE LQFP64"
+    ],
+    [
+      "dbc3c749-3435-48d4-acdf-7af82590aef3",
+      "IMU"
+    ],
+    [
+      "894022be-d127-4f79-8a1f-7a5355e738d5",
+      "USB_Power"
     ]
   ],
   "text_variables": {}

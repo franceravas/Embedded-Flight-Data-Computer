@@ -5,8 +5,78 @@
 	(uuid "16e232dd-2018-4914-997b-dd1e00d4fd91")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 144.78 66.04) (xy 166.37 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02ac3b07-172a-4dd4-b2c0-23a3678ea384")
+	)
+	(wire
+		(pts
+			(xy 144.78 92.71) (xy 166.37 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03fdafcb-24fb-4e41-b575-48b51529de14")
+	)
+	(wire
+		(pts
+			(xy 144.78 97.79) (xy 166.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a24a5f3-374c-438c-b125-ae06c403ddb7")
+	)
+	(wire
+		(pts
+			(xy 144.78 100.33) (xy 166.37 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69725c76-0882-4386-b5ca-eb8411fe0b3a")
+	)
+	(wire
+		(pts
+			(xy 144.78 68.58) (xy 166.37 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a88f0fb-96d9-41dc-a4e3-fd65ee7eb5b1")
+	)
+	(wire
+		(pts
+			(xy 144.78 102.87) (xy 166.37 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acf80f1d-3b48-45b0-86b3-3dc4b188d30e")
+	)
+	(wire
+		(pts
+			(xy 144.78 95.25) (xy 166.37 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2bbbfae-490c-401a-a116-ad7d8752dd2a")
+	)
 	(sheet
-		(at 50.8 38.1)
+		(at 118.11 62.23)
 		(size 26.67 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +92,7 @@
 		)
 		(uuid "48d8aa16-bc82-459d-909f-8c389aea39d3")
 		(property "Sheetname" "STM32F446RE LQFP64"
-			(at 50.8 37.3884 0)
+			(at 118.11 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +101,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 50.8 86.9446 0)
+			(at 118.11 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39,10 +109,234 @@
 				(justify left top)
 			)
 		)
+		(pin "USB_DM" input
+			(at 144.78 66.04 0)
+			(uuid "0d65e3c1-6d09-4a84-8f01-347c55538d4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" input
+			(at 144.78 68.58 0)
+			(uuid "eb591331-4e10-4add-8f38-87e409e5da99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_CS" input
+			(at 144.78 100.33 0)
+			(uuid "4539352f-6832-4856-bf97-838a0e1e9818")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_INT" input
+			(at 144.78 102.87 0)
+			(uuid "2a7ad352-8a0f-4ad2-9e6b-29ebcb75129f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MISO" input
+			(at 144.78 92.71 0)
+			(uuid "5d61b6a5-0ebb-449b-97d7-0e9e8119f922")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MOSI" input
+			(at 144.78 95.25 0)
+			(uuid "e9ed0bf4-3557-4246-adcb-9c61055dfef3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_SCK" input
+			(at 144.78 97.79 0)
+			(uuid "028c6125-420d-45b0-9ada-1aeb806e3f87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Hardware-Project"
 				(path "/16e232dd-2018-4914-997b-dd1e00d4fd91"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 62.23)
+		(size 22.86 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "894022be-d127-4f79-8a1f-7a5355e738d5")
+		(property "Sheetname" "USB_Power"
+			(at 166.37 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 166.37 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DM" output
+			(at 166.37 66.04 180)
+			(uuid "46f22be4-feb9-4114-8cd3-99ef2a6789be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" output
+			(at 166.37 68.58 180)
+			(uuid "6ec6a313-f557-4fd6-9d91-547b0219f705")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Hardware-Project"
+				(path "/16e232dd-2018-4914-997b-dd1e00d4fd91"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 88.9)
+		(size 25.4 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dbc3c749-3435-48d4-acdf-7af82590aef3")
+		(property "Sheetname" "IMU"
+			(at 166.37 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IMU.kicad_sch"
+			(at 166.37 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IMU_CS" input
+			(at 166.37 100.33 180)
+			(uuid "fe1a74b2-2e16-4f9d-bbd7-ce0fa4616962")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_INT" input
+			(at 166.37 102.87 180)
+			(uuid "80ac1041-0f47-4415-b4b6-b90685233dcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MISO" input
+			(at 166.37 92.71 180)
+			(uuid "80349295-1d36-47e6-a331-8f88624f81c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MOSI" input
+			(at 166.37 95.25 180)
+			(uuid "c0d59989-5c80-4ce7-a0a7-a9d8db06cb76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_SCK" input
+			(at 166.37 97.79 180)
+			(uuid "f9ac06ad-6899-46f5-b6f7-0bc7241d5b6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Hardware-Project"
+				(path "/16e232dd-2018-4914-997b-dd1e00d4fd91"
+					(page "3")
 				)
 			)
 		)
