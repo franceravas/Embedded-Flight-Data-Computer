@@ -76,6 +76,48 @@
 		(uuid "d2bbbfae-490c-401a-a116-ad7d8752dd2a")
 	)
 	(sheet
+		(at 80.01 62.23)
+		(size 24.13 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1bc4f23c-bf7d-4bd8-bc1a-6eaa1e23d649")
+		(property "Sheetname" "SD_Card"
+			(at 80.01 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SD_Card.kicad_sch"
+			(at 80.01 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hardware-Project"
+				(path "/16e232dd-2018-4914-997b-dd1e00d4fd91"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 118.11 62.23)
 		(size 26.67 48.26)
 		(exclude_from_sim no)

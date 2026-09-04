@@ -5,26 +5,10 @@
 	(uuid "bc68657e-117a-427f-95be-d50e87bb17ab")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "GPS_RX"
-		(shape input)
-		(at 92.71 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
-		(uuid "98a29efe-7d18-4801-a161-c24e29876130")
 	)
-	(hierarchical_label "GPS_TX"
-		(shape input)
-		(at 92.71 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c2a219cc-16b5-468a-b7b7-8fbeee82c2d8")
-	)
+	(embedded_fonts no)
 )

@@ -625,6 +625,10 @@
     [
       "894022be-d127-4f79-8a1f-7a5355e738d5",
       "USB_Power"
+    ],
+    [
+      "1bc4f23c-bf7d-4bd8-bc1a-6eaa1e23d649",
+      "SD_Card"
     ]
   ],
   "text_variables": {}
