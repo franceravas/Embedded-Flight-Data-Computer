@@ -1230,7 +1230,7 @@
 		)
 		(uuid "f079913b-7748-4af3-b545-4ad1f66c392e")
 	)
-	(hierarchical_label "CS"
+	(hierarchical_label "SD_CS"
 		(shape input)
 		(at 99.06 88.9 180)
 		(effects
@@ -1263,7 +1263,7 @@
 		)
 		(uuid "4c7ddbb8-45cd-4af7-a7fe-ffb69b48b270")
 	)
-	(hierarchical_label "GPIO"
+	(hierarchical_label "SWA"
 		(shape input)
 		(at 123.19 99.06 180)
 		(effects
