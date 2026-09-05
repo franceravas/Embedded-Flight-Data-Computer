@@ -1884,7 +1884,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "%V -> 3V3 LDO. Not buck converter since LDO is \nsimpler, cheaper, less susciptible to noise\n"
+	(text "5V -> 3V3 LDO. Not buck converter since LDO is \nsimpler, cheaper, less susciptible to noise\n"
 		(exclude_from_sim no)
 		(at 105.918 49.53 0)
 		(effects
