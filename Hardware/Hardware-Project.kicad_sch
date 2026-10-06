@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "16e232dd-2018-4914-997b-dd1e00d4fd91")
 	(paper "A4")
 	(lib_symbols)
@@ -138,11 +138,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "1bc4f23c-bf7d-4bd8-bc1a-6eaa1e23d649")
 		(property "Sheetname" "SD_Card"
 			(at 80.01 61.5184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152,6 +154,8 @@
 		)
 		(property "Sheetfile" "SD_Card.kicad_sch"
 			(at 80.01 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -230,11 +234,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "48d8aa16-bc82-459d-909f-8c389aea39d3")
 		(property "Sheetname" "STM32F446RE LQFP64"
 			(at 118.11 61.5184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -244,6 +250,8 @@
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
 			(at 118.11 111.0746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -264,56 +272,6 @@
 		(pin "USB_DP" input
 			(at 144.78 68.58 0)
 			(uuid "eb591331-4e10-4add-8f38-87e409e5da99")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IMU_CS" input
-			(at 144.78 100.33 0)
-			(uuid "4539352f-6832-4856-bf97-838a0e1e9818")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IMU_INT" input
-			(at 144.78 102.87 0)
-			(uuid "2a7ad352-8a0f-4ad2-9e6b-29ebcb75129f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI1_MISO" input
-			(at 144.78 92.71 0)
-			(uuid "5d61b6a5-0ebb-449b-97d7-0e9e8119f922")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI1_MOSI" input
-			(at 144.78 95.25 0)
-			(uuid "e9ed0bf4-3557-4246-adcb-9c61055dfef3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI1_SCK" input
-			(at 144.78 97.79 0)
-			(uuid "028c6125-420d-45b0-9ada-1aeb806e3f87")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -392,11 +350,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "894022be-d127-4f79-8a1f-7a5355e738d5")
 		(property "Sheetname" "USB_Power"
 			(at 166.37 61.5184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -406,6 +366,8 @@
 		)
 		(property "Sheetfile" "USB.kicad_sch"
 			(at 166.37 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -454,11 +416,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "dbc3c749-3435-48d4-acdf-7af82590aef3")
 		(property "Sheetname" "IMU"
 			(at 166.37 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -468,61 +432,13 @@
 		)
 		(property "Sheetfile" "IMU.kicad_sch"
 			(at 166.37 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "IMU_CS" input
-			(at 166.37 100.33 180)
-			(uuid "fe1a74b2-2e16-4f9d-bbd7-ce0fa4616962")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IMU_INT" input
-			(at 166.37 102.87 180)
-			(uuid "80ac1041-0f47-4415-b4b6-b90685233dcb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI1_MISO" input
-			(at 166.37 92.71 180)
-			(uuid "80349295-1d36-47e6-a331-8f88624f81c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI1_MOSI" input
-			(at 166.37 95.25 180)
-			(uuid "c0d59989-5c80-4ce7-a0a7-a9d8db06cb76")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI1_SCK" input
-			(at 166.37 97.79 180)
-			(uuid "f9ac06ad-6899-46f5-b6f7-0bc7241d5b6a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances
