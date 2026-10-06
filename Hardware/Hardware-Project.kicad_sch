@@ -67,16 +67,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 100.33) (xy 166.37 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69725c76-0882-4386-b5ca-eb8411fe0b3a")
-	)
-	(wire
-		(pts
 			(xy 144.78 68.58) (xy 166.37 68.58)
 		)
 		(stroke
@@ -84,16 +74,6 @@
 			(type default)
 		)
 		(uuid "7a88f0fb-96d9-41dc-a4e3-fd65ee7eb5b1")
-	)
-	(wire
-		(pts
-			(xy 144.78 102.87) (xy 166.37 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acf80f1d-3b48-45b0-86b3-3dc4b188d30e")
 	)
 	(wire
 		(pts
@@ -329,6 +309,36 @@
 				(justify left)
 			)
 		)
+		(pin "I2C1_SCL" input
+			(at 144.78 92.71 0)
+			(uuid "fe04c824-15cc-4a46-a6cf-76c9e8ef4540")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDA" input
+			(at 144.78 95.25 0)
+			(uuid "e0037235-291e-42c5-a99d-4b47ebef6a6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_INT" input
+			(at 144.78 97.79 0)
+			(uuid "d5d70809-6507-4ea9-8e98-a847de2fc32f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Hardware-Project"
 				(path "/16e232dd-2018-4914-997b-dd1e00d4fd91"
@@ -439,6 +449,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "I2C1_SCL" input
+			(at 166.37 92.71 180)
+			(uuid "e0cc5b99-b2ec-45d9-a2aa-33c3f16baa10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SDA" input
+			(at 166.37 95.25 180)
+			(uuid "bd3043aa-7816-48c8-a0cb-bd6d073c29cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_INT" input
+			(at 166.37 97.79 180)
+			(uuid "a4936239-24f4-4296-8dfe-99bb313c0a07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

@@ -695,13 +695,15 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 102.87 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de3987cc-ba35-40fc-8917-7e1ef7601536")
+	)
 	(no_connect
 		(at 124.46 105.41)
 		(uuid "8cd096ff-a5a5-4144-8fe4-3ff50f5f40a6")
-	)
-	(no_connect
-		(at 124.46 110.49)
-		(uuid "97771164-566f-4a6a-ba60-ca8215dc1812")
 	)
 	(no_connect
 		(at 124.46 107.95)
@@ -716,6 +718,16 @@
 			(type default)
 		)
 		(uuid "117c10e0-7e98-40ef-9629-50f2ed78f1de")
+	)
+	(wire
+		(pts
+			(xy 124.46 110.49) (xy 102.87 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "268257e5-be54-46ec-8fd9-500d062233ab")
 	)
 	(wire
 		(pts
@@ -749,7 +761,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 97.79) (xy 102.87 115.57)
+			(xy 102.87 110.49) (xy 102.87 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ddbbaa-6882-451c-85b2-0ebc85a262f4")
+	)
+	(wire
+		(pts
+			(xy 102.87 97.79) (xy 102.87 110.49)
 		)
 		(stroke
 			(width 0)
@@ -824,7 +846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 129.54 102.87 0)
 			(hide yes)
 			(show_name no)
