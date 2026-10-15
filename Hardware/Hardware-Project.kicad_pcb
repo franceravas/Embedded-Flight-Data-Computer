@@ -4028,7 +4028,7 @@
 	(footprint "STM32F446RE LQFP64:LQFP64-10x10mm"
 		(layer "F.Cu")
 		(uuid "ab30aad3-c639-4721-bc0f-53c726fdf398")
-		(at 151 83)
+		(at 139.5 73.5)
 		(tags "STM32F446RET6TR ")
 		(property "Reference" "U1"
 			(at 0 0 0)
