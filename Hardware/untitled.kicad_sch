@@ -6812,7 +6812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LQFP64-10x10mm"
+		(property "Footprint" "STM32:STM32446RET6TR"
 			(at 76.2 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8387,7 +8387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 			(at 163.83 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8705,7 +8705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LQFP64-10x10mm"
+		(property "Footprint" "STM32:STM32446RET6TR"
 			(at 190.5 63.5 0)
 			(hide yes)
 			(show_name no)
