@@ -6,6 +6,14 @@ fp-info-cache
 *.kicad_pro-bak
 *.kicad_sch-bak
 *.kicad_pcb-bak
+*-backups/
+*.lck
+*kicad_prl
+
+#VS Code Local history
+.history/
+**/.history/
+
 
 # macOS files
 .DS_Store
